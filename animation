@@ -1,0 +1,32 @@
+local player = game.Players.LocalPlayer
+
+local function applyAnimations(character)
+	local animate = character:WaitForChild("Animate")
+
+	-- Zombie Idle
+	animate.idle.Animation1.AnimationId = "rbxassetid://616158929"
+	animate.idle.Animation2.AnimationId = "rbxassetid://616160636"
+
+	-- Mage Walk
+	animate.walk.WalkAnim.AnimationId = "rbxassetid://707897309"
+
+	-- Zombie Run
+	animate.run.RunAnim.AnimationId = "rbxassetid://616163682"
+
+	-- Oldschool Jump
+	animate.jump.JumpAnim.AnimationId = "rbxassetid://125750702"
+
+	-- Oldschool Fall
+	animate.fall.FallAnim.AnimationId = "rbxassetid://180436148"
+
+	-- Reload Animate
+	animate.Disabled = true
+	task.wait()
+	animate.Disabled = false
+end
+
+if player.Character then
+	applyAnimations(player.Character)
+end
+
+player.CharacterAdded:Connect(applyAnimations)
