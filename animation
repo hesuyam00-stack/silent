@@ -4,8 +4,8 @@ local function applyAnimations(character)
 	local animate = character:WaitForChild("Animate")
 
 	-- Zombie Idle
-	animate.idle.Animation1.AnimationId = "rbxassetid://616158929"
-	animate.idle.Animation2.AnimationId = "rbxassetid://616160636"
+	animate.idle.Animation1.AnimationId = "https://www.roblox.com/catalog/619535834/Zombie-Idle"
+	animate.idle.Animation2.AnimationId = "https://www.roblox.com/catalog/619535834/Zombie-Idle"
 
 	-- Mage Walk
 	animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/catalog/754636298/Mage-Walk"
