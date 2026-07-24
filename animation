@@ -8,16 +8,16 @@ local function applyAnimations(character)
 	animate.idle.Animation2.AnimationId = "rbxassetid://616160636"
 
 	-- Mage Walk
-	animate.walk.WalkAnim.AnimationId = "rbxassetid://707897309"
+	animate.walk.WalkAnim.AnimationId = "https://www.roblox.com/catalog/754636298/Mage-Walk"
 
 	-- Zombie Run
-	animate.run.RunAnim.AnimationId = "rbxassetid://616163682"
+	animate.run.RunAnim.AnimationId = "https://www.roblox.com/catalog/619536621/Zombie-Run"
 
 	-- Oldschool Jump
-	animate.jump.JumpAnim.AnimationId = "rbxassetid://125750702"
+	animate.jump.JumpAnim.AnimationId = "https://www.roblox.com/catalog/5319917561/Oldschool-Jump"
 
 	-- Oldschool Fall
-	animate.fall.FallAnim.AnimationId = "rbxassetid://180436148"
+	animate.fall.FallAnim.AnimationId = "https://www.roblox.com/catalog/5319914476/Oldschool-Fall"
 
 	-- Reload Animate
 	animate.Disabled = true
